@@ -1,0 +1,40 @@
+.resp-tabs-list {
+    list-style: none;
+    padding:20px 0;
+    text-align: center;
+}
+.resp-tab-item{
+	color: #524B46;
+    cursor: pointer;
+    padding: 0 25px;
+    line-height: 36px;
+    display: inline-block;
+    outline: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    text-transform: uppercase;
+    border: 1px solid #5f5f5f;
+	margin: 0 5px;
+    color: #fff;
+}
+
+
+.resp-tab-active,li.resp-tab-item:hover{
+	background-color:#f55691;
+    border-color:#f55691;
+    
+}
+h2.resp-accordion {
+	cursor: pointer;
+	padding: 5px;
+	display: none;
+}
+.resp-tab-content {
+	display: none;
+}
+.resp-content-active, .resp-accordion-active {
+   display: block;
+}

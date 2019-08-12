@@ -1,0 +1,495 @@
+
+
+a:hover, a:active{
+	color:#efcaa0;
+	}
+h1,h2,h3,h4,h5,h6{
+	color:#333;
+	}
+p,a,span,ul,li{
+	color:#999;
+	}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	 GENERAL STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+	
+.section-title-1 p{color:#999;}	
+.title-divider-main-1 .td-line{background:#efcaa0;}
+.title-divider-main-1 .td-icon .ibox-3{background:#efcaa0;}
+.title-divider-main-1 .td-icon .ibox-1{border: 1px solid #efcaa0;}
+.title-divider-main-1 .td-icon .ibox-2{border: 1px solid #efcaa0;}
+.breadcrums p{color:#333;}
+
+
+
+.contact-form input{background:#f9f9f9;border:1px solid #eee;}
+.contact-form input[placeholder], .contact-form textarea[placeholder]{}
+.contact-form textarea{background:#f9f9f9;height:160px;border:1px solid #eee;}
+.contact-form .contact-btn{background:#333;color:#fff;}
+.contact-form .contact-btn:hover{background:#efcaa0;color:#fff;}
+.contact-form .input-field:focus{border:1px solid #efcaa0;}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	HEADER
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.overlay {
+	
+}
+.overlay-cornershape .overlay-path {
+	fill: rgba(51,51,51,0.9);
+}
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2# MAIN NAVBAR
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+ .main-header {
+    background:rgba(34,34,34,0.85);
+	}
+ .topnav {
+    background: #333;
+}
+
+ .topnav ul.quick-menu > li > a {
+    color: #333;
+}
+ .topnav .content-right .social-share ul li a{
+	border:1px solid #fff;
+	color:#fff;
+	}
+ .topnav .content-right .social-share ul li a:hover{
+	border:1px solid #fff;
+	background: #fff;
+	color:#333;
+	}
+ .topnav .content-left form .form-lang-select select {
+	
+	color:#fff;
+	
+	}
+ .mobile-menu-toggle {
+    background:url('../../images/mobile-btn-icon.png') no-repeat center #333;
+}
+ .mobile-menu-toggle .icon-bar {
+    background:#ccc;
+}
+ .logo a, #footer .logo a, .chaser .logo a {
+}
+
+.nav-logo-2, .nav-logo-3, .nav-logo-4, .nav-logo-5, .nav-logo-6, .nav-logo-7{display:none;}
+
+
+.lang-flag.en-us {
+}
+.nav-call-action{
+	border:1px solid #fff;
+}
+.nav-call-action:hover{
+	border:1px solid #333;
+}
+#main-menu ul.menu > li > a.nav-cart-btn, .chaser ul.menu > li > a.nav-cart-btn{
+	border:1px solid #333;
+	color:#333;
+}
+#main-menu ul.menu > li > a.nav-cart-btn:hover, .chaser ul.menu > li > a.nav-cart-btn:hover{
+	border:1px solid #333;
+	background:#333;
+	color:#fff;
+}
+#main-menu ul.menu > li > a, .chaser ul.menu > li > a {
+	color:#999;
+}
+#main-menu ul.menu > li.active > a, .chaser ul.menu > li.active > a {
+    color: #333;
+	
+	
+}
+#main-menu ul.menu > li.active > a, .chaser ul.menu > li.active > a {
+    color: #333;
+	border-bottom:1px solid #333;
+}
+#main-menu ul.menu > li:hover > a, .chaser ul.menu > li:hover > a {
+    color: #333;
+}
+#main-menu ul.menu.menu3 > li.active > a, .chaser ul.menu > li.active > a {
+    color: #333;
+}
+#main-menu ul.menu.menu3 > li:hover > a, .chaser ul.menu > li:hover > a {
+    color: #333;
+	border-bottom:1px solid #333;
+}
+#main-menu ul.menu > li ul, .chaser ul.menu > li ul {
+    background: rgba(34,34,34,0.85);	
+}
+#main-menu ul.menu > li ul li, .chaser ul.menu > li ul li {
+    border-top: 1px solid rgba(68,68,68,0.85);
+}
+#main-menu ul.menu > li ul li:hover, .chaser ul.menu > li ul li:hover {
+    border-top: 1px solid rgba(255,197,25,0.90);
+}
+#main-menu ul.menu > li ul li > a, .chaser ul.menu > li ul li > a {
+    color: #fff;
+}
+#main-menu ul.menu > li ul li:hover > a, #main-menu ul.menu > li ul li.active > a, .chaser ul.menu > li ul li:hover > a, .chaser ul.menu > li ul li.active > a {
+    background: rgba(255,197,25,0.85);
+}
+#main-menu ul.menu > .megamenu-menu ul.megamenu, .chaser ul.menu > .megamenu-menu ul.megamenu {
+    background: rgba(255,197,25,0.90);
+}
+#main-menu ul.menu > .megamenu-menu ul.megamenu li.menu-item-has-children.active > a, #main-menu ul.menu > .megamenu-menu ul.megamenu li.menu-item-has-children:hover > a, .chaser ul.menu > .megamenu-menu ul.megamenu li.menu-item-has-children.active > a, .chaser ul.menu > .megamenu-menu ul.megamenu li.menu-item-has-children:hover > a {}
+#main-menu ul.menu > .megamenu-menu ul.megamenu li.menu-item-has-children ul, .chaser ul.menu > .megamenu-menu ul.megamenu li.menu-item-has-children ul {}
+#main-menu ul.menu > .megamenu-menu ul.megamenu > li > a:hover, .chaser ul.menu > .megamenu-menu ul.megamenu > li > a:hover {}
+#main-menu ul.menu > .megamenu-menu ul.megamenu ul.sub-menu li li a, .chaser ul.menu > .megamenu-menu ul.megamenu ul.sub-menu li li a {
+    border-bottom: 1px solid #fff;
+}
+ul.menu.mini {
+    background: #fff;
+    border: 2px solid #333;
+}
+ul.menu.mini li a {
+    border-bottom: 1px solid #f5f5f5;
+}
+ul.menu.mini li:hover, ul.menu.mini li.active {
+    background:#f5f5f5;
+}
+ul.menu.mini li:hover a, ul.menu.mini li.active a {
+    color: #333;
+}
+.mobile-menu {
+    background: #333;
+}
+.mobile-menu a {
+    background:rgba(0, 0, 0, 0) !important;
+    color: #fff;
+}
+.mobile-menu > ul.menu > li > a {
+    border-top: 1px solid #fff;
+}
+.mobile-menu > ul.menu > li.menu-item-has-children.open {
+    
+}
+.mobile-menu > ul.menu > li.menu-item-has-children > .dropdown-toggle {
+    background:rgba(0, 0, 0, 0);
+	color:#fff !important;
+}
+ .mobile-menu > ul.menu > li.menu-item-has-children > a {
+    
+}
+ .mobile-menu > ul.menu > li.menu-item-has-children > ul {
+    border-top: 1px solid #333;
+}
+.mobile-menu > ul.menu > li:last-child > a {
+    margin-bottom:20px;
+
+}
+.mobile-menu > ul.menu > li:hover .nav-call-action {
+    border:1px solid #fff;
+}
+ .mobile-menu > ul.menu > li:hover .nav-cart-btn {
+    border:1px solid #fff;
+}
+.mobile-menu > ul.menu > li > ul li.menu-item-has-children > a {
+    color: #fff;
+}
+.mobile-menu > ul.menu > li > ul li.menu-item-has-children > ul {
+    border-bottom: 1px solid #333;
+}
+.mobile-menu .mobile-topnav > li {
+    color: #40cbf8;
+}
+.chaser {
+    background:  rgba(255, 255, 255, 0.95);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+.no-rgba .chaser {background: #fff;}
+
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	BUTTON STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.btn-black-1 a{ color:#fff;background:#333;}
+.btn-black-1 a:hover{ color:#fff;background:#efcaa0;}
+	
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	INTRO STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.intro{border:1px solid #eee;}
+.intro:hover{border:1px solid #333;background:#333;}
+.intro:hover .intro-icon, .intro:hover .intro-content h6, .intro:hover .intro-content p{color:#fff;}
+
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	GALLARYs
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.gallary-content .gallary-overlay .gallary-overlay-inner{border:1px solid #efcaa0;}
+.gallary-content .gallary-overlay .gallary-overlay-inner .gallary-content .divider{background:#efcaa0;}
+.gallary-content .gallary-overlay{background:rgba(255,255,255,0.92);}
+.gallary-content .gallary-overlay .gallary-overlay-inner .gallary-content h5 a{color:#333;}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	15 FUNFACTS COUNTER
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+#funfact-1{}
+#funfact-1 .color-1{background:#111111;}
+#funfact-1 .color-2{background:#151515;}
+#funfact-1 .color-3{background:#191919;}
+#funfact-1 .color-4{background:#222222;}
+.count{color:#fff;}
+.funfact > p{color:#fff;}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	15 SERVICES COUNTER
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.services .services-title i{border: 1px solid #eee;}
+.services .services-title:hover i{border:1px solid #333;color:#fff;background:#333;}
+	
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	PRICING PLAN STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+.pricing{box-shadow:0 0 0 1px #eee inset;background:#f9f9f9;}
+.price-plan{background:#f1f1f1;}
+.price-plan .price{color:#333}
+.price-plan .currency{color:#333;}
+.price-plan .price strong{color:#333;}	
+.price-plan .saving{}
+.price-plan .plan-type{}
+.price-plan .plan-type p{color:#333;background:#fff;box-shadow:0 1px 3px 0 #f1f1f1;}		
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	TESTIMONIAL STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+#testimonial-1{background:#222;}
+#testimonial-1 .testimonials-ct .item .testi-content{color:#999;}
+
+.owl-theme .owl-controls .owl-page span  {background: #333;}
+.owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {background: #fff;}
+.owl-controls .owl-dots .owl-dot{background:#333;}
+.owl-controls .owl-dots .owl-dot:hover,.owl-controls .owl-dots .owl-dot.active{background:#fff;}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	TEAM STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.team-figure .team-overlay{background:rgba(34,34,34,0.85);}
+.team-overlay .team-social li a{color:#fff;}
+.team-overlay .team-social li a:hover{color:#efcaa0;}
+.testi-cap-1 h4{color:#fff;}
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	 CONTACT  STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+.info-box{border:1px solid #eee;}
+.info-box .info-icon{color:#333;}
+
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	 FOOTER STYLING
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.footer{
+	background:#fff;
+	}
+.footer-2{
+	background:#151515;
+	}
+.footer-3{
+	background:#181818;
+	}
+.footer4{
+	background:#fff;
+	}
+.back-to-top a,.back-to-top p{
+	color:#333;
+	}
+.back-to-top a:hover{
+	transform:translateY(-5px);
+	}
+.footer-social ul li a{
+	color:#333;
+	border:1px solid #333;
+	}
+.footer-social ul li a:hover{
+	color:#fff;
+	border:1px solid #333;
+	background:#333;
+	}
+.footer-copyright p{
+	color:#333;
+	}
+	
+	
+.back-to-top2 a,.back-to-top2 p{
+	color:#444;
+	}
+.back-to-top2 a:hover{
+	transform:translateY(-5px);
+	}
+.footer-social2 ul li a{
+	color:#444;
+	border:1px solid #444;
+	}
+.footer-social2 ul li a:hover{
+	color:#fff;
+	border:1px solid #444;
+	background:#444;
+	}
+.footer-copyright2 p{
+	color:#444;
+	}
+.footer-copyright3 p{
+	color:#999;
+	}
+.footer-bottom{background:#151515;}
+
+.footer4 .footer-widget-title h4{color:#333;}
+.footer4 .footer-recent-post{border-bottom:1px solid #eee;}
+.footer4 .footer-contact-form .input-field{border:1px solid #eee;}
+.footer4 .footer-contact-form .input-field:after{color:#eee;}
+.footer4 .footer-contact-form .input-field input[type="submit"]{background:#fff;color:#999;}
+.footer4 .footer-contact-form .input-field input:hover[type="submit"]{background:#333;color:#fff;}
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	BLOG PAGES
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+#blog{}
+/* blog post 1  */
+
+.blog-post-1{box-shadow:0 0 0 1px #eee inset;}
+.post-content .post-cap .post-cat{color:#333;}
+.post-content .post-readmore{border-bottom:1px solid #999;}
+.post-content .post-readmore:hover{border-bottom:1px solid #efcaa0;color:#efcaa0;}
+
+.post-nav .post-pre{color:#333;}
+.post-nav .post-next{color:#333;}
+
+/*
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+	BLOG SIDEBAR
+--------------------------------------------------------------------------------------------------------------------------------
+*/
+
+.widget-title{background:#f9f9f9;border:1px solid #eee;}
+
+/* TAGS widget */
+
+.tags-content a{background:#f9f9f9;color:#333;border:1px solid #eee;}
+.tags-content a:hover{background:#333;color:#fff;border:1px solid #333;}
+
+
+
+/*---------------------------------SHOP PAGES-----------------------------------*/
+.main-shop .shop-item .shop-img .shop-overlay{
+	background:rgba(255,197,25, 0.75);
+	}
+.shop-detail-button a{
+	border:1px solid #fff;
+	color:#fff;
+	}
+.shop-item .figure img{width:100%;}
+.shop-detail-button a:hover{
+	border:1px solid #fff;
+	background:#fff;
+	color:#333;
+	}
+.main-shop .shop-item .shop-content{
+	border: 1px solid #f1f1f1;
+	}
+.main-shop .shop-item .shop-bottom{
+	border-bottom:1px solid #f1f1f1;
+	border-right:1px solid #f1f1f1;
+	border-left:1px solid #f1f1f1;
+	}
+.main-shop .shop-item .shop-type h6{color:#777;}
+.main-shop .shop-item .shop-price h6{color:#777;}
+.main-shop .shop-item .shop-sale-price h6{color:#333;}
+.shop-price h6{color:#777;}
+.shop-sale-price h6{color:#333;}
+.score-callback .fa-star{color:#333;}
+.score-callback .fa-star-o{color:#a1b1b1;}
+.main-shop .shop-item .shop-bottom .shop-cart-fav a{color:#777;}
+.main-shop .shop-item .shop-bottom .shop-cart {color:#ccc;}
+.main-shop .shop-item .shop-bottom .shop-fav {color:#ccc;}
+.main-shop .shop-item .shop-bottom .shop-cart:hover{color:#333;}
+.main-shop .shop-item .shop-bottom .shop-fav:hover{color:#333;}
+
+
+.product-disc-detail{border-bottom:1px solid #ccc; }
+.shop-detail-cart-main{border-bottom:1px solid #ccc;}
+.shop-detail-cart-main .button {
+  border: 1px solid #ccc;
+  color:#ccc;
+	}
+.detail-cart-btn{
+	border: 1px solid #333;
+	color:#333;
+	}
+.detail-cart-btn:hover:after{
+	color:#fff;
+	}
+.detail-cart-btn input{
+	color:#333;
+	}
+.shop-detail-cart-main .numbers-row input:focus{border:1px solid #ccc;}
+.shop-detail-cart-main .button:hover{
+	border: 1px solid #333;
+	background:#333;
+	color:#fff;
+	}
+.detail-cart-btn:hover{
+	border: 1px solid #333;
+	background:#333;
+	
+	}
+.detail-cart-btn:hover input{
+	color:#fff;
+	
+	}
+.shop-detail-metas p a{color:#333;}
+.shop-detail-social ul li a{
+	border:1px solid #333;
+	color:#333;
+	
+	}
+.shop-detail-social ul li a:hover{
+	border:1px solid #333;
+	color:#fff;
+	background:#333;
+	}
+ul.tabs{
+	border-bottom:1px solid #eee;
+	}
+ul.tabs li.current{
+	color:#333;	
+			
+	}
+.shop-detail-disc-review{}
